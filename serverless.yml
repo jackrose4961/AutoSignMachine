@@ -55,7 +55,7 @@ functions:
     handler: tscf.main_handler
     runtime: Nodejs12.16
     memorySize: 256
-    timeout: 900
+    timeout: 9000
     environment:
       variables:
         cmd: unicom
@@ -71,7 +71,7 @@ functions:
     handler: tscf.main_handler
     runtime: Nodejs12.16
     memorySize: 256
-    timeout: 900
+    timeout: 9000
     environment:
       variables:
         cmd: unicom
@@ -87,7 +87,7 @@ functions:
     handler: tscf.main_handler
     runtime: Nodejs12.16
     memorySize: 256
-    timeout: 900
+    timeout: 9000
     environment:
       variables:
         cmd: unicom
